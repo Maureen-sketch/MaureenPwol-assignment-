@@ -1,10 +1,14 @@
-const assignment = require('../src/assignment.js');
-
-const { sumOfNumbers } = assignment;
-const maybe = sumOfNumbers === undefined ? test.skip : test;
-
-maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () => {
-    const numbers = [
+<html>
+<body>
+ <p> Sum of all numbers:</p>
+ <p Id="demo"> </p>
+<Script>
+Function myFunction= For sum (let i=0; i< sum, i++);
+</script>
+const { sum } = "demo";
+const function = sumOfNumbers === undefined ? test.skip : test;
+Return (sum + i) : newSum', () => {
+    document.getElementById ("demo"). innerHtml= [
         68,
         -68,
         27,
@@ -24,7 +28,8 @@ maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () =
         20,
         -56,
         -91,
-        -50
+       -50
     ];
-    expect(sumOfNumbers(numbers)).toBe(75);
-});
+    Return sum;
+</body>
+</html>
